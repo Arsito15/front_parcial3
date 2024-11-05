@@ -1,0 +1,112 @@
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.user-info, .task-form {
+  padding: 20px;
+  border: 1px solid #61dafb;
+  border-radius: 8px;
+  text-align: center;
+  width: 300px;
+  margin-bottom: 20px;
+  background-color: #333;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 1px solid #61dafb;
+  color: #333;
+}
+
+textarea {
+  height: 60px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+.add-task-button {
+  margin: 20px 0;
+}
+
+/* Estilo adicional para el botón "Pagar" */
+.pay-button {
+  background-color: #f0ad4e;
+  color: white;
+  padding: 8px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pay-button:hover {
+  background-color: #ec971f;
+}
+
+/* Estilo para el formulario de pago */
+.payment-form {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid #61dafb;
+  border-radius: 8px;
+  background-color: #444;
+}
+
+.payment-form input {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border-radius: 4px;
+  border: 1px solid #61dafb;
+  color: #333;
+}
+
+.payment-form button {
+  background-color: #5cb85c;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.payment-form button:hover {
+  background-color: #4cae4c;
+}
+
+/* Estilo para el mensaje de éxito de pago */
+.payment-success {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 15px 20px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
